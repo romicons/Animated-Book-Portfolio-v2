@@ -2,13 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width = device-width, minimum-scale=1,maximum-scale=1, user-scalable = no">
     <meta name="description" content="¡Hola! ¡Bienaventurade seas! Te encuentras frente al portfolio de Romina Constantinoff, una artista audiovisual con muchos códigos. Te invito a explorar mi mundo creativo y descubrir cómo fusiono mi visión artística con habilidades técnicas para crear experiencias únicas. ¡Sumérgete en estos proyectos innovadores y experimenta la convergencia de la creatividad y la tecnología en cada pieza!.">
     <meta name="keywords" content="Desarrolladora Frontend, HTML5, CSS3, JavaScript, React, Diseño Responsivo, Accesibilidad Web, Proyectos Web, Desarrollo Web Creativo, Código Abierto, Git, Portfolio Web, UI/UX, Web Design, Desarrollo Web Profesional.">
     <title>Romina Constantinoff Portfolio</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="lib/modernizr.2.5.3.min.js"></script>
+    <link rel="stylesheet" href="./double-page.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <div class="flipbook-viewport">
+        <div class="container">
+            <div class="flipbook shadow">
+                <div ignore="1"> 
+                    Something else 
+                </div>
+
+                <div class="page hard">
+                    soy la tapa
+                </div>
+
+                <div class="page double sheet">
+                    soy la primera pagina izquierda
+                    <div class="odd">
+                        ASEREJE
+                    </div>
+                    <div class="even">
+                        JA
+                    </div>
+                </div>
+                <div class="page double even sheet">
+                    soy la segunda pagina derecha
+                </div>
+                <div class="page double odd sheet">
+                    soy la tercera pagina derecha
+                </div>
+                <div class="page double even sheet">
+                    soy la cuarta pagina derecha
+                </div>
+                <div class="page double odd sheet">
+                    soy la quinta pagina derecha
+                </div>
+                <div class="page double even sheet">
+                    soy la sexta pagina derecha
+                </div>
+                <div class="page hard">
+                    soy la contratapa
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
+
+<script src="index.js" type="text/JavaScript"></script>
+<script src="lib/turn.js" type="text/JavaScript"></script>
+
 </html>
